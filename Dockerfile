@@ -28,3 +28,5 @@ RUN composer install --prefer-dist --no-dev --no-interaction --optimize-autoload
 # Expose HTTP i HTTPS portove
 EXPOSE 80
 EXPOSE 443
+
+CMD ["apache2-foreground"]
